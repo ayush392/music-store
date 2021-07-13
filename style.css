@@ -9,11 +9,6 @@ body{
     line-height: 1.6;
 }
 
-.section-bg{
-    background-color: #f4f4f4;
-    color: black;
-}
-
 /* Navigation bar */
 section ul{
     margin: 0px;
@@ -29,15 +24,33 @@ section ul a{
     color: white;
 }
 
-
 h1{
     font-size: 4rem;
+    margin-bottom: 0;
 }
 h2{
     font-size: 2rem;
 }
+h3{
+    font-size: 1.5rem;
+}
 p{
     font-size: 1.3rem;
+}
+
+.section-bg{
+    background-color: #f4f4f4;
+    color: black;
+}
+
+img{
+    width: 100%;
+}
+
+.small{
+    font-size: 16px;
+    text-align: center;
+    clear: left;
 }
 
 /* First section */
@@ -49,8 +62,9 @@ p{
 .container-0{
     position: absolute;
     top: 50%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
+    left: 10%;
+    right: 10%;
+    transform: translateX(0%) translateY(-50%);
 }
 
 #btn-one{
@@ -73,18 +87,33 @@ p{
 
 .container{
     text-align: center;
-    padding: 1rem 10rem;
-    position: relative;
+    padding: 2% 10%;
 }
 
 #entertain{
     background: url(./images/section-bg.jpeg) bottom/cover no-repeat;
-    padding: 10rem 0;
+    padding: 10% 0;
 }
 
-footer p{
+/* Gift */
+div#gift{
+    height: 60vh;
+    padding: 0 10%
+}
+.img-one{
+    float: left;
+    width: 50%;   
+}
+.img-two{
+    float: left;
+    width: 50%;
+} 
+
+.small-font{
     font-size: 16px;
-    text-align: center;
-    margin: 0;
-    padding: 0.63rem;
+    clear: left;
+}
+#fj{
+    text-decoration: none;
+    color:navy;
 }
