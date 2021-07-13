@@ -2,67 +2,89 @@
 
 body{
     margin: 0;
+    padding: 0;
     font-family: 'PT Sans', sans-serif;
     background-color: #252529;
     color: #fff;
     line-height: 1.6;
 }
 
-/* Navigation bar */
-
-section ul a{
-    display: inline-block;
-    padding: 0px 20px;
-    text-decoration: none;
-    color: whitesmoke;
-}
-
-.video, .gift-card{
-    background: #f4f4f4;
+.section-bg{
+    background-color: #f4f4f4;
     color: black;
 }
 
-h1{
-    text-align: center;
-    font-size: 64px;
+/* Navigation bar */
+section ul{
+    margin: 0px;
+    padding: 0.5rem;
 }
-
-h2{
-    text-align: center;
-    font-size: 32px;
+section ul li{
+    display: inline;
+    list-style-type: none;
+    margin: 0px 1rem;
 }
-
-p{
-    font-size: 20.8px;
-    text-align: center;
-}
-
-div{
-    padding: 0px 3em;
-}
-
-
-.overview{ 
-    background: url(./images/showcase.jpeg) center/cover no-repeat;
-    height: 92vh;
-}
-
-img{
-    max-width: 90%;
-}
-
-.banner {
-    background: url(./images/section-bg.jpeg) bottom/cover no-repeat;
-}
-
-.gift-card img{
-    float: left;
-    width: 50%;
-}
-
-.gift-card a{
-    display: block;
+section ul a{
     text-decoration: none;
-    color: navy;
+    color: white;
+}
+
+
+h1{
+    font-size: 4rem;
+}
+h2{
+    font-size: 2rem;
+}
+p{
+    font-size: 1.3rem;
+}
+
+/* First section */
+#over{
+    background: url(./images/showcase.jpeg) center/cover no-repeat;
+    min-height: 95vh;
     text-align: center;
+}
+.container-0{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+#btn-one{
+    display: inline-block;
+    text-decoration: none;
+    background-color: #B90415;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+#btn-two{
+    display: inline-block;
+    text-decoration: none;
+    background-color: #103063;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+.container{
+    text-align: center;
+    padding: 1rem 10rem;
+    position: relative;
+}
+
+#entertain{
+    background: url(./images/section-bg.jpeg) bottom/cover no-repeat;
+    padding: 10rem 0;
+}
+
+footer p{
+    font-size: 16px;
+    text-align: center;
+    margin: 0;
+    padding: 0.63rem;
 }
