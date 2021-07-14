@@ -108,7 +108,11 @@ div#gift{
     float: left;
     width: 50%;
 } 
-
+@media (max-width: 800px) {
+  .img-one, .img-two {
+    width: 100%;
+  }
+}
 .small-font{
     font-size: 16px;
     clear: left;
