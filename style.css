@@ -96,10 +96,6 @@ img{
 }
 
 /* Gift */
-div#gift{
-    height: 60vh;
-    padding: 0 10%
-}
 .img-one{
     float: left;
     width: 50%;   
@@ -108,6 +104,13 @@ div#gift{
     float: left;
     width: 50%;
 } 
+.clearfix{
+    content: "";
+    clear: both;
+    display: table;
+    padding: 0 10%;
+}
+
 @media (max-width: 800px) {
   .img-one, .img-two {
     width: 100%;
@@ -117,7 +120,7 @@ div#gift{
     font-size: 16px;
     clear: left;
 }
-#fj{
+#redeem{
     text-decoration: none;
     color:navy;
 }
